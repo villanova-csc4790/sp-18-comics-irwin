@@ -1,11 +1,11 @@
 {
-    "id": "c42e1712-4de4-4d14-b3a0-fce7898aff4a",
+    "id": "0c5fdff4-8e51-4dfe-b218-41f6699d3309",
     "modelName": "GMFolder",
     "mvc": "1.1",
-    "name": "c42e1712-4de4-4d14-b3a0-fce7898aff4a",
+    "name": "0c5fdff4-8e51-4dfe-b218-41f6699d3309",
     "children": [
-        "05bb74c5-c0f7-47ef-b536-c5a71e6be568",
-        "e7f83f7c-8b87-4335-9f9e-373349d41ecd"
+        "e7f83f7c-8b87-4335-9f9e-373349d41ecd",
+        "f6c39182-846d-4cbe-a67f-88da1b36e5f3"
     ],
     "filterType": "GMRoom",
     "folderName": "rooms",
