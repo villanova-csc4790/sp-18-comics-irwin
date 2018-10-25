@@ -6,6 +6,6 @@ if (!inLine && currentRoom = room0){
 	//make a Script for this creation I think
 	global.guestHolder[? "Name"] = choose("frank", "nancy", "kyrie", "craig", "henry", "Mushi", "Alesha"); //Make this a readable text file somewhere
 	global.guestHolder[? "Size"] = 1 //Perhaps this is a script (for fuller control)
-	global.guestHolder[? "Time"] = 2
+	global.guestHolder[? "Time"] = 1
 }
 alarm[0] = room_speed * 5;
