@@ -5,7 +5,7 @@ inLine = false;
 alarm[0] = room_speed * 5;
 booking = false;
 money = 100;
-
+global.HOTEL = noone;
 currentRoom = room0;
 currentDay = -1;
 currentGuest = noone;

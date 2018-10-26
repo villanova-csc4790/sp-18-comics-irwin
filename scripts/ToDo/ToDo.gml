@@ -7,13 +7,22 @@
 */
 
 
-#region //Hotel Mechanics
+#region //Core NEED TO DO Mechanics
 /*-----------------------------------------------------------------
 
-1. Implement management of systems such as hiring Maids.
-	A) Maids will quit at the end of the month due to stress. How many do you want to hire? 
-		Think of how efficient they are and what a messy room means (Lower Review) 
-	B) Monster rooms take a day to clean(?)
+1. Food and Cleanliness Requirements -
+	A: Figure out how to check against the current hunger or cleanliness score divided by max as the percentage chance that they will call for a maid
+	   Or bellhop. Have a limited number of maids/Bellhops and they will dissapear for X amount of time while on that call.
+	B: Punishment for not making it to the call in enough time. This is where the rating score is important. Maybe even have it so staying heavily
+	   them rewards a better 5.0 score? 
+	BONUS: Perhaps it could be a random event that they will call about that requires the bellhop staff member, when you click the room you get a block
+	of text that describes the event. Think about this way later, when you have more of a UI fleshed out.
+2. Start to work on the more randomized creation system for the guests.
+3. Make a vampire script
+4. Start to work on the timelining - Maybe actually look at timelines. If not, lets maybe look at fleshing out the clock system for the month to month stuff
+	Thoughts on this are, the clock object will maintain the day to day tracking, but perhaps it has month variables and week within that month variables, and 
+	that will call the actual scripts to run on those days? Think more about this.
+
 
 --------------------------------------------------------------------*/
 #endregion
@@ -56,8 +65,6 @@
 #region //Random Ideas
 /*---------------------------------------------------------------------
 
-1. Rating systems -
-	A) Humans - Resources, Cleanliness, Noise, 
 
 --------------------------------------------------------------------*/
 #endregion

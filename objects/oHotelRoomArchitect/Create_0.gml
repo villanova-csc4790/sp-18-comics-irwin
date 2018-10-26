@@ -26,8 +26,3 @@ for(i = 100; i < 100*hotelStats.MAXFLOORS; i += 100){
 		//oRoomStats.roomID[i,j/100] = currentRoom;
 	}
 }
-
-//Populate the grid. Things that need to be figured out are where you're actually
-//Populating hte maps of information as well as where you're acessing this when you
-//Move to the hotel room and not the check in room, and what will be pushing this info 
-//Onto the screen
