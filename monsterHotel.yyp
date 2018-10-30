@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "59173025-8fd2-4470-9db2-9a7c6b4426f2",
+            "Value": {
+                "id": "226ddb91-88f4-4ac6-860a-3610f28d0e0d",
+                "resourcePath": "scripts\\scrHunger\\scrHunger.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5dbfe91d-a508-4b4d-b31d-f34a0a976d95",
             "Value": {
                 "id": "84361871-44ee-4389-916a-1d2cca665056",
@@ -163,6 +171,14 @@
             "Value": {
                 "id": "fab38753-4907-42ac-b56a-805bb53577f6",
                 "resourcePath": "objects\\oHotelRoom\\oHotelRoom.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "88027e07-30e0-45ea-973f-86ff358b32cd",
+            "Value": {
+                "id": "8274a0d3-44cf-48d0-8fe7-e2af1ad3ae08",
+                "resourcePath": "objects\\oHotelGuestController\\oHotelGuestController.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -321,7 +337,8 @@
     ],
     "script_order": [
         "64b6f3b5-e9d2-457f-b1cf-231fe717808e",
-        "0e123715-3f72-4bd3-87d1-93c09a1496c4"
+        "0e123715-3f72-4bd3-87d1-93c09a1496c4",
+        "59173025-8fd2-4470-9db2-9a7c6b4426f2"
     ],
     "tutorial": ""
 }
