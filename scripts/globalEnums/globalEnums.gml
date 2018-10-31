@@ -3,7 +3,7 @@ enum hotelStats{
 	MAXFLOORS = 5,
 	FULLDAY = 1800, 
 	//Fix this so the time isnt required to be an actual math thing that I will have to do
-	AVGMAXHUNGER = 600
+	AVGMAXHUNGER = 900
 }
 
 enum roomStates{

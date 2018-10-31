@@ -8,24 +8,19 @@ if(ds_exists(global.HOTEL, ds_type_grid)){
 				if((map[? "State"] != roomStates.vacant) && (map[? "State"] != roomStates.processing)){
 					currentHunger = map[? "currentHunger"];
 					maxHunger = map[? "maxHunger"];
-					hungerIncrement = map[? "hungerIncrement"];
-					
+					//hungerIncrement = map[? "hungerIncrement"];
+					hungerIncrement = irandom(3);
 					currentHunger += hungerIncrement;
 					map[? "currentHunger"] = currentHunger;
 					
 					//Work out how this feels, since this randomness is too random and not good enough.
-					if(currentHunger > (maxHunger/3) && currentHunger%3 == 0){
-						procChance = (currentHunger/(maxHunger*3)*100);
-						map[? "procChance"] = procChance;
-						roller = irandom(1000);
-						if (roller < procChance){
-							map[? "State"] = roomStates.hungryCall;
+					if(currentHunger >= maxHunger){
+						map[? "State"] = roomStates.hungryCall;
+						map[? "currentHunger"] = maxHunger;
 						}
 					}
 				
-				}
-				
 			}
 		}
+	}	
 	}
-}
