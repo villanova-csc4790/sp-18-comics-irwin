@@ -9,6 +9,9 @@ if(ds_exists(global.HOTEL[# roomIncrement, floorIncrement], ds_type_map)){
 	} else{
 		//Only Drawn when populated
 		draw_text(x,y+32,map[? "Name"]);
+		draw_text(x,y, map[? "currentHunger"]);
+		draw_text(x + 24,y, map[? "procChance"]);
+		
 	}
 	//Always Drawn
 	draw_text(x,y+64,map[? "roomNumber"]);

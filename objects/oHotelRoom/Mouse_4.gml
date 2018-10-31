@@ -14,4 +14,13 @@ if(ds_exists(global.HOTEL[# roomIncrement, floorIncrement], ds_type_map)){
 		oGuestCreator.booking = false;
 		//map[? "Vacant"] = false; FOR DELETION
 	}
+	if(map[? "State"] == roomStates.hungryCall){
+		if(oStaffController.currBells > 0){
+			map[? "State"] = roomStates.processing;
+			oStaffController.currBells -= 1;
+			image_index = 0;
+			//Possibly take food here as well if that becomes a mechanic
+			alarm[0] = room_speed * (3 * floorIncrement);
+		}
+	}
 }

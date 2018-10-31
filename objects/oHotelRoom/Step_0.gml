@@ -9,4 +9,7 @@ if(ds_exists(global.HOTEL[# roomIncrement, floorIncrement], ds_type_map)){
 		map[? "State"] = roomStates.vacant;
 		map[? "cleanliness"] = 0; //REMEMBER THIS EXISTS
 	}
+	if(map[? "State"] == roomStates.hungryCall){
+		image_index = 1;
+	}
 }

@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "baa52ce4-bdc1-4e62-93a7-2c3796004836",
+            "Value": {
+                "id": "278e37b3-fa79-49bc-9c07-ca6434e8ecca",
+                "resourcePath": "objects\\oStaffController\\oStaffController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c0373ea1-8adb-413a-93d6-8f168a3de7b7",
             "Value": {
                 "id": "dcf8b166-e035-4f32-9dad-b0850e7ef682",

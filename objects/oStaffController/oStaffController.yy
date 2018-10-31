@@ -1,18 +1,18 @@
 {
-    "id": "88027e07-30e0-45ea-973f-86ff358b32cd",
+    "id": "baa52ce4-bdc1-4e62-93a7-2c3796004836",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oHotelGuestController",
+    "name": "oStaffController",
     "eventList": [
         {
-            "id": "bc43b937-ac9f-4574-8914-5754f4f4de10",
+            "id": "5ee07cff-a9db-4e9d-a8c6-7793bc65cf01",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "88027e07-30e0-45ea-973f-86ff358b32cd"
+            "eventtype": 0,
+            "m_owner": "baa52ce4-bdc1-4e62-93a7-2c3796004836"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
