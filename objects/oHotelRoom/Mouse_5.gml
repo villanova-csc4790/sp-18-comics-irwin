@@ -4,7 +4,7 @@
 //This is a clear script fushigi
 if(ds_exists(global.HOTEL[# roomIncrement, floorIncrement], ds_type_map)){	
 	map = global.HOTEL[# roomIncrement, floorIncrement];
-	if(map[? "State"] = roomStates.occupied){
+	if(map[? "State"] != roomStates.vacant){
 		map = global.HOTEL[# roomIncrement, floorIncrement];
 		ds_map_clear(map);
 		//oGuestCreator.booking = false;

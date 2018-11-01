@@ -12,4 +12,7 @@ if(ds_exists(global.HOTEL[# roomIncrement, floorIncrement], ds_type_map)){
 	if(map[? "State"] == roomStates.hungryCall){
 		image_index = 1;
 	}
+	if(map[? "State"] != roomStates.hungryCall){
+		image_index = 0;
+	}
 }
