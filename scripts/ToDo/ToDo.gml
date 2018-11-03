@@ -48,7 +48,7 @@
 	A) First floor reccomended
 	B) No electricity/Food. Increased water consumption
 	C) Other mechanics?
-5. Mostly Ghosty -
+5. Mostly Ghosty - dead guest names
 	A) Needs empty rooms on either side or will spook guests
 	B) No resources
 	C) Ghost will give more money if rooms are filled, but humans will drop their rating(for each day maybe?)
