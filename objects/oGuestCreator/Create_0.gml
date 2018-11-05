@@ -1,21 +1,25 @@
 /// @description Insert description here
 // You can write your code in this editor
-randomize();
+global.day = 1;
+global.week = 1;
+global.guestList = noone;
+
 inLine = false;
-alarm[0] = room_speed * 5;
+
+//alarm[0] = room_speed * 5;
 booking = false;
 money = 100;
 global.HOTEL = noone;
 currentRoom = room0;
 currentDay = -1;
 currentGuest = noone;
+listCount = 0;
+global.currentGuestMap = noone;
 //Also implement booked timer
+
+bookingName = "";
+curName = "";
 
 
 global.guestHolder = ds_map_create();
-
-enum guestInfo{
-	PARTYNAME = 0,
-	PARTYSIZE = 1,
-	PARTYTIME = 2 // Represents how many days they will spend in the room
-}
+global.guestHolder[? "Name"] = "";

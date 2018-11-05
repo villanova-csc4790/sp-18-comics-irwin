@@ -1,14 +1,22 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (!inLine && currentRoom = room0){
+if (!inLine){
 	inLine = true;
-	currentGuest = instance_create_depth(room_width/2,room_height/2,0,oGuest);
-	//make a Script for this creation I think
-	global.guestHolder[? "Name"] = choose("frank", "nancy", "kyrie", "craig", "henry", "Mushi", "Alesha"); //Make this a readable text file somewhere
-	global.guestHolder[? "Size"] = 1 //Perhaps this is a script (for fuller control)
-	global.guestHolder[? "Time"] = 2;
-	global.guestHolder[? "maxHunger"] = hotelStats.AVGMAXHUNGER;
-	global.guestHolder[? "hungerIncrement"] = 1;
-	global.guestHolder[? "currentHunger"] = irandom(200);
+	if(global.guestHolder[? "Name"] == ""){
+		
+		map = global.guestList[| listCount];
+		
+		global.guestHolder[? "Name"]					=	map[? "Name"];
+		global.guestHolder[? "Size"]					=	map[? "Size"];
+		global.guestHolder[? "maxHunger"]				=	map[? "maxHunger"];
+		global.guestHolder[? "currentHunger"]			=	map[? "currentHunger"];
+		global.guestHolder[? "hungerIncrement"]			=	map[? "hungerIncrement"];
+		global.guestHolder[? "Time"]					=	map[? "Time"];
+		listCount ++;	
+		
+	}
+	else{
+		//alarm[1] = room_speed* This should set an alarm for it punish waiting
+	}
 }
-alarm[0] = room_speed * 5;
+//alarm[0] = room_speed * 5;

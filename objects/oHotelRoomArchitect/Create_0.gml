@@ -14,7 +14,6 @@ for(i = 100; i < 100*hotelStats.MAXFLOORS; i += 100){
 		global.HOTEL[# i/100, j] = ds_map_create();
 		map = global.HOTEL[# i/100, j];
 		roomNumber = (i+j);
-		map[? "roomObj"] = currentRoom;
 		
 		with(currentRoom){
 			i = oHotelRoomArchitect.i;

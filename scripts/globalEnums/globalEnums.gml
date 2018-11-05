@@ -13,3 +13,9 @@ enum roomStates{
 	hungryCall,
 	processing
 }
+
+enum guestInfo{
+	name = 1,
+	
+	
+}
