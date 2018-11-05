@@ -9,5 +9,6 @@ if (!inLine && currentRoom = room0){
 	global.guestHolder[? "Time"] = 2;
 	global.guestHolder[? "maxHunger"] = hotelStats.AVGMAXHUNGER;
 	global.guestHolder[? "hungerIncrement"] = 1;
+	global.guestHolder[? "currentHunger"] = irandom(200);
 }
 alarm[0] = room_speed * 5;

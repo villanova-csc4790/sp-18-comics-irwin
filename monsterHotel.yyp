@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "38a763b7-c9b5-42b4-8b68-32d4cdde066f",
+            "Value": {
+                "id": "08fbcd46-29c0-4d58-90bd-b4349d61e2ca",
+                "resourcePath": "objects\\oRatingTracker\\oRatingTracker.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "45dce72b-edc5-4fd3-b3b9-a876e7c3f0f1",
             "Value": {
                 "id": "6c387c4b-9e8b-404c-870f-28dc9c052be4",
