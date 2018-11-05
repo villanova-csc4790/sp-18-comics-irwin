@@ -19,7 +19,10 @@ if(ds_exists(global.HOTEL[# roomIncrement, floorIncrement], ds_type_map)){
 			map[? "State"] = roomStates.processing;
 			oStaffController.currBells -= 1;
 			//Possibly take food here as well if that becomes a mechanic
-			alarm[0] = room_speed * (3 * floorIncrement);
+			oStaffController.currentFloorIncrement = floorIncrement;
+			oStaffController.currentRoomIncrement = roomIncrement;
+			oStaffController.alarm[0] = room_speed * (3 * floorIncrement);
+
 		}
 	}
 }

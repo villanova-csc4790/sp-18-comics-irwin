@@ -6,3 +6,7 @@ if(oGuestCreator.inLine = true){
 	oGuestCreator.currentRoom = room1;
 	room_goto(room1);
 }
+else {
+	oGuestCreator.currentRoom = room1;
+	room_goto(room1);
+}

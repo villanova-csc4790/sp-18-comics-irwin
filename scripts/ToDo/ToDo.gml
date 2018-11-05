@@ -10,6 +10,9 @@
 #region //Core NEED TO DO Mechanics
 /*-----------------------------------------------------------------
 
+0. Make traversing between checkin and management back and fourth easy
+00.Possibly running switch in switch and the random spawn time will be something like (random(400,500) where that is the time in the alarm to spawn in maybe? 
+
 1. Food and Cleanliness Requirements -
 	A: Figure out how to check against the current hunger or cleanliness score divided by max as the percentage chance that they will call for a maid
 	   Or bellhop. Have a limited number of maids/Bellhops and they will dissapear for X amount of time while on that call.
