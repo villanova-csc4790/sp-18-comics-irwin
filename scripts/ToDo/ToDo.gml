@@ -10,10 +10,13 @@
 #region //Core NEED TO DO Mechanics
 /*-----------------------------------------------------------------
 
+//The only worthless guest, is one that can't leave a review.
+
 TODO TOMORROW 11/5/18
 -Read and implement information in the oGuest to create an information object that displays and has a book button.
 -Make the game start running real time
 -Ratings System/Maid system should be done tomorrow as well.
+-Prices for the rooms are randomized (Maybe tips are based on X percent of bill where X is based on the overall rating)
 
 00.Possibly running switch in switch and the random spawn time will be something like (random(400,500) where that is the time in the alarm to spawn in maybe? 
 
@@ -69,7 +72,7 @@ TODO TOMORROW 11/5/18
 
 #region //Random Ideas
 /*---------------------------------------------------------------------
-
+1. Human Guests have types, like couple, or family. 
 
 --------------------------------------------------------------------*/
 #endregion
