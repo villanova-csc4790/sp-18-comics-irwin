@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "a4dc0141-fc46-4a76-b080-8272f4203fd4",
+            "Value": {
+                "id": "a3390347-16c3-4aa4-a2f1-03adecfe3cc0",
+                "resourcePath": "objects\\oGuestInfoWindow\\oGuestInfoWindow.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "739a56e9-26c5-497e-a558-aa50944a7cbe",

@@ -12,7 +12,8 @@
 
 //The only worthless guest, is one that can't leave a review.
 
-TODO TOMORROW 11/5/18
+TODO TOMORROW 11/6/18
+//Workign on this top one, run the gmae you'll see the errors
 -Read and implement information in the oGuest to create an information object that displays and has a book button.
 -Make the game start running real time
 -Ratings System/Maid system should be done tomorrow as well.
