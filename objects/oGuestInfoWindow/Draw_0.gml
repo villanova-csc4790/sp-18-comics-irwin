@@ -5,8 +5,9 @@ draw_self();
 		curName = oGuest.curName;
 		map = global.currentGuestMap[? curName];
 	} */
-	if(ds_exists(global.currentGuestMap,ds_type_map)){
-		draw_text(x+64,y + 32, global.currentGuestMap[? "Name"]);
-		draw_text(x+64,y + 64, global.currentGuestMap[? "Time"]);
-		draw_text(x+64,y + 48, global.currentGuestMap[? "Size"]);
+	if(ds_exists(global.guestList,ds_type_map)){	
+		map = global.guestList[? oGuestCreator.curName];
+		draw_text(x+64,y + 32, map[? "Name"]);
+		draw_text(x+64,y + 64, map[? "Time"]);
+		draw_text(x+64,y + 48, map[? "Size"]);
 	}

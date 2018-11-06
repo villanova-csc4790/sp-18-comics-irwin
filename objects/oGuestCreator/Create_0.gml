@@ -19,7 +19,3 @@ global.currentGuestMap = noone;
 
 bookingName = "";
 curName = "";
-
-
-global.guestHolder = ds_map_create();
-global.guestHolder[? "Name"] = "";

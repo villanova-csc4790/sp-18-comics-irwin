@@ -74,6 +74,8 @@ TODO TOMORROW 11/6/18
 #region //Random Ideas
 /*---------------------------------------------------------------------
 1. Human Guests have types, like couple, or family. 
+2. daily challemges
+3. endless -> skill tree
 
 --------------------------------------------------------------------*/
 #endregion
