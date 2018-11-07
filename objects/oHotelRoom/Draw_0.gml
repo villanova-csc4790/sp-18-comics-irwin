@@ -15,7 +15,7 @@ if(ds_exists(global.HOTEL[# roomIncrement, floorIncrement], ds_type_map)){
 		//Only Drawn when populated
 		guestMap = global.guestList[? currentGuest];
 		draw_text(x,y+32,guestMap[? "Name"]);
-		draw_text(x,y, guestMap[? "outDay"]);
+		draw_text(x,y, map[? "outDate"]);
 		
 	}
 	//Always Drawn

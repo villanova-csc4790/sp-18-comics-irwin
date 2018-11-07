@@ -4,3 +4,7 @@ map = noone;
 curName = "";
 alive = true;
 bookButton = noone;
+
+name = "";
+timeStaying = 0;
+groupSize = 0;

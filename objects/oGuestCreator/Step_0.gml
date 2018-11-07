@@ -8,13 +8,13 @@ if(!ds_exists(global.guestList, ds_type_map)){
 if(global.day == 1){ //This is a script. 
 	switch(oClock.alarm[0]){
 		case 7000: 
-			if (!inLine && curName = ""){
+			if (!inLine){
 				guestArray = ["Alesha_B", "Alex_F"];
 				scrGuestSpawn(guestArray);
 			}
 			break;
-		case 5000:
-			if (!inLine && curName = ""){
+		case 6000:
+			if (!inLine){
 				guestArray = ["Henry_I", "Craig_C"];
 				scrGuestSpawn(guestArray);
 			}

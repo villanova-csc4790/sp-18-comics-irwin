@@ -6,7 +6,7 @@ switch(irandom(1)){
 		map1 = ds_map_create();
 			map1[? "Name"]				= "Alex_F"
 			map1[? "Size"]				= 2 //Perhaps this is a script (for fuller control)
-			map1[? "Time"]				= 2;
+			map1[? "Time"]				= 1;
 			map1[? "maxHunger"]			= hotelStats.AVGMAXHUNGER;
 			map1[? "hungerIncrement"]	= 1;
 			map1[? "currentHunger"]		= irandom_range(300, 700);
@@ -17,8 +17,8 @@ switch(irandom(1)){
 	case 1:
 		map2 = ds_map_create();
 			map2[? "Name"]				= "Alesha_B"
-			map2[? "Size"]				= 4 //Perhaps this is a script (for fuller control)
-			map2[? "Time"]				= 4;
+			map2[? "Size"]				= 2 //Perhaps this is a script (for fuller control)
+			map2[? "Time"]				= 1;
 			map2[? "maxHunger"]			= hotelStats.AVGMAXHUNGER;
 			map2[? "hungerIncrement"]	= 1;
 			map2[? "currentHunger"]		= irandom_range(200,900);

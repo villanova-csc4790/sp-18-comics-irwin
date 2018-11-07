@@ -6,16 +6,19 @@ global.guestList = noone;
 
 inLine = false;
 
-//alarm[0] = room_speed * 5;
 booking = false;
 money = 100;
 global.HOTEL = noone;
 currentRoom = room0;
-currentDay = -1;
-currentGuest = noone;
+
+guest[0] = noone;
+selected = noone;
+guestCount = 0;
+
 listCount = 0;
 global.currentGuestMap = noone;
 //Also implement booked timer
 
+
 bookingName = "";
-curName = "";
+global.curName = "";

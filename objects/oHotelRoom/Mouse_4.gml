@@ -10,11 +10,15 @@ if(ds_exists(global.HOTEL[# roomIncrement, floorIncrement], ds_type_map)){
 		
 		map[? "Name"] = currentGuestMap[? "Name"];
 		map[? "State"] = roomStates.occupied;
-		map[? "outDate"] = (global.day + currentGuestMap[? "Time"]); 
+		outDate = global.day + currentGuestMap[? "Time"]
+		map[? "outDate"] = outDate; 
 		
 		oGuestCreator.booking = false;
 		oGuestCreator.bookingName = "";
-		instance_destroy(oGuest);
+		with(oGuestCreator){
+			instance_destroy(guest[selected]);
+			guestCount --; //This code will have to be changed
+		}
 	}
 	if(map[? "State"] == roomStates.hungryCall){
 		if(oStaffController.currBells > 0){

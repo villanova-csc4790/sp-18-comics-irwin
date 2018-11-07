@@ -12,27 +12,18 @@
 
 //The only worthless guest, is one that can't leave a review.
 
-TODO TOMORROW 11/6/18
-//Workign on this top one, run the gmae you'll see the errors
--Read and implement information in the oGuest to create an information object that displays and has a book button.
--Make the game start running real time
+TODO TOMORROW 11/7/18
 -Ratings System/Maid system should be done tomorrow as well.
 -Prices for the rooms are randomized (Maybe tips are based on X percent of bill where X is based on the overall rating)
+-Making unique objects for each bellhop so that they can run their alarms uniquely. 
 
-00.Possibly running switch in switch and the random spawn time will be something like (random(400,500) where that is the time in the alarm to spawn in maybe? 
-
+Longer Term Ideas
 1. Food and Cleanliness Requirements -
 	B: Punishment for not making it to the call in enough time. This is where the rating score is important. Maybe even have it so staying heavily
 	   them rewards a better 5.0 score? 
 	BONUS: Perhaps it could be a random event that they will call about that requires the bellhop staff member, when you click the room you get a block
 	of text that describes the event. Think about this way later, when you have more of a UI fleshed out.
-2. Look at the idea of the list of maps that you can pop off or whatever.
-3. Make a vampire script
-4. Start to work on the timelining - Maybe actually look at timelines. If not, lets maybe look at fleshing out the clock system for the month to month stuff
-	Thoughts on this are, the clock object will maintain the day to day tracking, but perhaps it has month variables and week within that month variables, and 
-	that will call the actual scripts to run on those days? Think more about this.
-
-
+2. Make a vampire object
 --------------------------------------------------------------------*/
 #endregion
 
