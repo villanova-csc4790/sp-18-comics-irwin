@@ -4,7 +4,6 @@ if(oGuestCreator.inLine){
 	oGuestCreator.selected = guestNumber;
 	if(guestNumber != -1){
 	window = instance_create_depth(1120, 160, -1,oGuestInfoWindow);
-	map1 = global.currentGuestMap;
 	if(ds_exists(map1, ds_type_map)){	
 		oGuestInfoWindow.name = map1[? "Name"];
 		oGuestInfoWindow.timeStaying = map1[? "Time"];
