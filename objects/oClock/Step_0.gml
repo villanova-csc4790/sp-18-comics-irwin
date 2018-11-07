@@ -10,7 +10,7 @@ switch (alarm[0]){
 		state = time.NOON;
 		scrCheckout();
 		break;
-	case 500:
+	case (hotelStats.FULLDAY/3):
 		state = time.NIGHT;
 		break;
 }

@@ -1,2 +1,0 @@
-oGuestCreator.currentRoom = room1;
-
