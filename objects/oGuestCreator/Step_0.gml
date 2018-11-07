@@ -6,7 +6,7 @@ if(!ds_exists(global.guestList, ds_type_map)){
 }
 //Create a switch here that tracks the tiem of the day and spawns the gguest based on this time.
 switch(oClock.alarm[0]){
-	case 1750: 
+	case 1600: 
 		if (!inLine && curName = ""){
 			guestArray = ["Alesha_B", "Alex_F"];
 			scrGuestSpawn(guestArray);

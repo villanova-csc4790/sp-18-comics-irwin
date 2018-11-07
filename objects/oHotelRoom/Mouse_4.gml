@@ -4,6 +4,7 @@ if(ds_exists(global.HOTEL[# roomIncrement, floorIncrement], ds_type_map)){
 	map = global.HOTEL[# roomIncrement, floorIncrement];
 	
 	if(map[? "State"] == roomStates.vacant && oGuestCreator.booking){
+		
 		currentGuest = oGuestCreator.bookingName;
 		currentGuestMap = global.guestList[? currentGuest];
 		
@@ -11,14 +12,9 @@ if(ds_exists(global.HOTEL[# roomIncrement, floorIncrement], ds_type_map)){
 		map[? "State"] = roomStates.occupied;
 		map[? "outDate"] = (global.day + currentGuestMap[? "Time"]); 
 		
-		/*map[? "Size"] = global.guestHolder[? "Size"];
-		map[? "maxHunger"] = global.guestHolder[? "maxHunger"];
-		map[? "currentHunger"] = global.guestHolder[? "currentHunger"];
-		map[? "hungerIncrement"] = global.guestHolder[? "hungerIncrement"]; */
 		oGuestCreator.booking = false;
 		oGuestCreator.bookingName = "";
-		//ds_map_clear(global.guestHolder);
-		//map[? "Name"] = "";
+		instance_destroy(oGuest);
 	}
 	if(map[? "State"] == roomStates.hungryCall){
 		if(oStaffController.currBells > 0){

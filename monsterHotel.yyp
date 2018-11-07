@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0ddeab44-87d4-458c-96b1-eed878b0db0c",
+            "Value": {
+                "id": "7936dba0-097f-4adb-9e43-ef50cb6f7744",
+                "resourcePath": "objects\\oRoomChange\\oRoomChange.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0e123715-3f72-4bd3-87d1-93c09a1496c4",
             "Value": {
                 "id": "1608c155-c1b2-42c0-aa38-6379b99e6ead",

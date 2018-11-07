@@ -4,13 +4,9 @@ if(oGuestCreator.inLine = true){
 	with(oGuestCreator){
 		booking = true;
 		inLine = false;
-		currentRoom = room1;
+		//currentRoom = room1;
 		bookingName = curName;
-		curName = "";
+		curName = "";//SOEMTHING HAPPENING HERE
 	}
-	room_goto(room1);
-}
-else {
-	oGuestCreator.currentRoom = room1;
-	room_goto(room1);
+	//room_goto(room1);
 }
