@@ -4,14 +4,19 @@ if(oGuestCreator.inLine){
 	oGuestCreator.selected = guestNumber;
 	if(guestNumber != -1){
 	window = instance_create_depth(1120, 160, -1,oGuestInfoWindow);
-	if(ds_exists(map1, ds_type_map)){	
-		oGuestInfoWindow.name = map1[? "Name"];
-		oGuestInfoWindow.timeStaying = map1[? "Time"];
-		oGuestInfoWindow.groupSize = map1[? "Size"];
+	if(guestName != ""){
+	guestMap = global.guestList[? guestName];
+	if(ds_exists(guestMap, ds_type_map)){	
+		oGuestInfoWindow.name = guestMap[? "Name"];
+		oGuestInfoWindow.timeStaying = guestMap[? "Time"];
+		oGuestInfoWindow.groupSize = guestMap[? "Size"];
 	}
 		with(window){
+			close = instance_create_depth(x+467, y+15, -2, oGuestClose);
 			bookButton = instance_create_depth(x+241, y+ 440, -2, oBookButton);
-			//map = global.guestList[? oGuestCreator.curName];
+			bookButton.guestName = name;
+			close.bookButton = bookButton;
+			close.infoBox = id;
 		}
-	}
+	}}
 }

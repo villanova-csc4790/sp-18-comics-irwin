@@ -15,7 +15,6 @@
 TODO TOMORROW 11/7/18
 -Ratings System/Maid system should be done tomorrow as well.
 -Prices for the rooms are randomized (Maybe tips are based on X percent of bill where X is based on the overall rating)
--Making unique objects for each bellhop so that they can run their alarms uniquely. 
 
 Longer Term Ideas
 1. Food and Cleanliness Requirements -

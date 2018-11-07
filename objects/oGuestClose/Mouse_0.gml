@@ -1,3 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-currBells += 1;
+instance_destroy(infoBox);
+instance_destroy(bookButton);
+instance_destroy();

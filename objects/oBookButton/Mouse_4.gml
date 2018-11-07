@@ -2,9 +2,9 @@
 // You can write your code in this editor
 if(oGuestCreator.inLine = true){
 	with(oGuestCreator){
-		inLine = false;
+		//inLine = false;
 		booking = true;
-		bookingName = global.curName;
-		global.curName = "";
+		bookingName = oBookButton.guestName;
+		//global.curName = "";
 	}
 }

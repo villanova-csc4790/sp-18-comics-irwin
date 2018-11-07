@@ -1,28 +1,38 @@
 {
-    "id": "9d0134d6-8c40-4304-be21-184b07acca6c",
+    "id": "84839505-3c41-49c5-9630-5f58690e31dd",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oBookButton",
+    "name": "oBellHop",
     "eventList": [
         {
-            "id": "2ff5a29a-2050-4efa-a994-0ef0d914b0b8",
+            "id": "18eb33ce-336c-46d4-91f6-0a9b66461d7a",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 4,
-            "eventtype": 6,
-            "m_owner": "9d0134d6-8c40-4304-be21-184b07acca6c"
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "84839505-3c41-49c5-9630-5f58690e31dd"
         },
         {
-            "id": "06a1b9bc-fe92-4285-a4a2-ef7168511640",
+            "id": "5bd8a757-5efe-4ad5-bc2d-fae2a7f6d908",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "9d0134d6-8c40-4304-be21-184b07acca6c"
+            "m_owner": "84839505-3c41-49c5-9630-5f58690e31dd"
+        },
+        {
+            "id": "71390701-c9bc-45c1-a183-2b7048a2eb3b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 2,
+            "m_owner": "84839505-3c41-49c5-9630-5f58690e31dd"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,6 +53,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "79c629e3-23d8-4f25-82ff-726d5e660a66",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

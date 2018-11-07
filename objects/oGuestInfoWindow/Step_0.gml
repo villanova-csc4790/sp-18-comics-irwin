@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (oGuestCreator.inLine == false){
+if (oGuestCreator.booking == true){
 	instance_destroy(bookButton);
+	instance_destroy(close);
 	instance_destroy(self);
 }

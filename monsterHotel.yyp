@@ -47,19 +47,27 @@
             }
         },
         {
-            "Key": "0ddeab44-87d4-458c-96b1-eed878b0db0c",
-            "Value": {
-                "id": "7936dba0-097f-4adb-9e43-ef50cb6f7744",
-                "resourcePath": "objects\\oRoomChange\\oRoomChange.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "0e123715-3f72-4bd3-87d1-93c09a1496c4",
             "Value": {
                 "id": "1608c155-c1b2-42c0-aa38-6379b99e6ead",
                 "resourcePath": "scripts\\ToDo\\ToDo.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "0e174d0c-2cec-479b-a132-1b1c99521b8c",
+            "Value": {
+                "id": "14b25460-9d1d-4569-a3cc-3528552bbf3d",
+                "resourcePath": "views\\0e174d0c-2cec-479b-a132-1b1c99521b8c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "11956476-0ad8-43a6-9a74-08eefa59ffd7",
+            "Value": {
+                "id": "389bd50d-1633-41ad-8a78-b3296d597871",
+                "resourcePath": "sprites\\sGuestInfoClose\\sGuestInfoClose.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -84,6 +92,14 @@
                 "id": "086bd4a3-3c9c-4e3e-8914-9662205bac20",
                 "resourcePath": "sprites\\sBackButton\\sBackButton.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1f5fbd72-8930-4ed4-b7a1-224c4480a3e8",
+            "Value": {
+                "id": "eba84787-358e-4827-91d0-abf42473671d",
+                "resourcePath": "views\\1f5fbd72-8930-4ed4-b7a1-224c4480a3e8.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -132,6 +148,14 @@
                 "id": "6c387c4b-9e8b-404c-870f-28dc9c052be4",
                 "resourcePath": "views\\45dce72b-edc5-4fd3-b3b9-a876e7c3f0f1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4ff63789-f57e-4381-8fdf-f103f592198c",
+            "Value": {
+                "id": "c50ce950-16c9-4194-b9d8-f4884c7006f9",
+                "resourcePath": "objects\\oGuestClose\\oGuestClose.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -188,6 +212,14 @@
                 "id": "6dd16174-9206-4ae9-8429-bcb431d2014e",
                 "resourcePath": "sprites\\sBookButton\\sBookButton.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "84839505-3c41-49c5-9630-5f58690e31dd",
+            "Value": {
+                "id": "3cc11626-9056-4122-8239-9572a11ac124",
+                "resourcePath": "objects\\oBellHop\\oBellHop.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -311,6 +343,14 @@
             }
         },
         {
+            "Key": "c2c0e95c-ee42-4ace-8caa-e02758d940c5",
+            "Value": {
+                "id": "3bfcf27a-a4dc-4bae-8e59-2a0dd2cd969a",
+                "resourcePath": "scripts\\scrBellhopCall\\scrBellhopCall.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "94a68148-46bc-4ab2-9fe7-5f04c8fb8f04",
@@ -405,7 +445,8 @@
         "59173025-8fd2-4470-9db2-9a7c6b4426f2",
         "e6c04a84-37e0-4d66-bb97-dab790addd5f",
         "e184fb7c-0b87-4ca2-95c6-09fc49c9d771",
-        "05ea02f8-e67e-45e3-93ad-a3ff10075f69"
+        "05ea02f8-e67e-45e3-93ad-a3ff10075f69",
+        "c2c0e95c-ee42-4ace-8caa-e02758d940c5"
     ],
     "tutorial": ""
 }

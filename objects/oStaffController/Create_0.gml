@@ -5,6 +5,3 @@ maxMaids = 2;
 maxBells = 2;
 currMaids = maxMaids;
 currBells = maxBells;
-
-currentFloorIncrement = 1;
-currentRoomIncrement = 1;
