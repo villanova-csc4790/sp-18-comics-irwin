@@ -13,8 +13,8 @@
 //The only worthless guest, is one that can't leave a review.
 
 TODO TOMORROW 11/7/18
--Ratings System/Maid system should be done tomorrow as well.
--Prices for the rooms are randomized (Maybe tips are based on X percent of bill where X is based on the overall rating)
+-Ratings System/
+-Maid system (Which I suppose is technically just the smae thing as the hunger system, but slightly different?)
 
 Longer Term Ideas
 1. Food and Cleanliness Requirements -
@@ -66,6 +66,7 @@ Longer Term Ideas
 1. Human Guests have types, like couple, or family. 
 2. daily challemges
 3. endless -> skill tree
+4. Prices for the rooms are randomized (Maybe tips are based on X percent of bill where X is based on the overall rating)
 
 --------------------------------------------------------------------*/
 #endregion

@@ -7,7 +7,7 @@ if(ds_exists(global.HOTEL, ds_type_grid)){
 					map[? "State"] = roomStates.vacant;
 					map[? "Name"] = "";
 					map[? "outDate"] = -1;
-					oGuestCreator.money += 100;//possible room clear code script should be made
+					oGuestCreator.money += map[? "GuestBill"];//This is likely where re-calculating the guestBill for things like tip and the other events that occur would come into play
 				}
 			}
 		}

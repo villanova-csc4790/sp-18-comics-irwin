@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Guest spawner and data handler
 // You can write your code in this editor
 global.day = 1;
 global.week = 1;

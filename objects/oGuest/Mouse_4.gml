@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Create Information Box for guest
 // You can write your code in this editor
 if(oGuestCreator.inLine){
 	oGuestCreator.selected = guestNumber;

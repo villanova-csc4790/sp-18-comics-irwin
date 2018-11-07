@@ -12,6 +12,9 @@ if(ds_exists(global.HOTEL[# roomIncrement, floorIncrement], ds_type_map)){
 		map[? "State"] = roomStates.occupied;
 		outDate = global.day + currentGuestMap[? "Time"]
 		map[? "outDate"] = outDate; 
+		stayTime = currentGuestMap[? "Time"];
+		
+		map[? "GuestBill"] = (map[? "Price"] * stayTime)
 		
 		oGuestCreator.booking = false;
 		oGuestCreator.bookingName = "";

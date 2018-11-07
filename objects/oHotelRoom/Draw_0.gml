@@ -11,15 +11,17 @@ if(ds_exists(global.HOTEL[# roomIncrement, floorIncrement], ds_type_map)){
 	if(map[? "State"] = roomStates.vacant){
 		//Only Drawn when Vacant
 		draw_text(x,y, "Vacant");
+		draw_text(x, y+48, map[? "Price"]);
+
 	} else{
 		//Only Drawn when populated
 		guestMap = global.guestList[? currentGuest];
 		draw_text(x,y+32,guestMap[? "Name"]);
 		draw_text(x,y, map[? "outDate"]);
+	    draw_text(x, y+48, map[? "GuestBill"]);
 		
 	}
 	//Always Drawn
 	draw_text(x,y+64,map[? "roomNumber"]);
-	//draw_text(x + 24,y, map[? "State"]);
 	
 }

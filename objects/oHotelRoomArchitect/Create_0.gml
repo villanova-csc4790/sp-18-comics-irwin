@@ -2,9 +2,9 @@
 // You can write your code in this editor
 xx = 128;
 yy = 128;
-currentRoom = noone;
 i = 0;
 j = 0;
+curWeek = 0;
 
 global.HOTEL = ds_grid_create(hotelStats.MAXFLOORS,hotelStats.MAXROOMS);
 
