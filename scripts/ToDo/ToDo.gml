@@ -13,8 +13,8 @@
 //The only worthless guest, is one that can't leave a review.
 
 TODO TOMORROW 11/7/18
--Ratings System/
--Maid system (Which I suppose is technically just the smae thing as the hunger system, but slightly different?)
+-Ratings System
+-Maid system (new Idea if forgotten check discord)
 
 Longer Term Ideas
 1. Food and Cleanliness Requirements -

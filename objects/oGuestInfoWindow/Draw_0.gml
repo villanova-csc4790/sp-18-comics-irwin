@@ -7,8 +7,8 @@ draw_self();
 	} */
 if(oGuestCreator.inLine){	
 	if(name != ""){
-		draw_text(x+64,y + 32, name);
-		draw_text(x+64,y + 64, timeStaying);
-		draw_text(x+64,y + 48, groupSize);
+		draw_text(x+64,y + 32,"Name: " + string(name));
+		draw_text(x+64,y + 64, "Nights: " + string(timeStaying));
+		draw_text(x+64,y + 48, "Group Size: " + string(groupSize));
 	}
 }
