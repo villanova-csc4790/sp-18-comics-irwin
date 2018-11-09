@@ -22,6 +22,5 @@ for(i = 100; i < 100*hotelStats.MAXFLOORS; i += 100){
 			floorIncrement = (j);
 			roomNumber = (i+j);
 		}
-		//oRoomStats.roomID[i,j/100] = currentRoom;
 	}
 }

@@ -11,7 +11,8 @@ enum roomStates{
 	occupied,
 	dirtyCall,
 	hungryCall,
-	processing
+	processing,
+	cleaning
 }
 
 enum guestInfo{

@@ -67,6 +67,7 @@ Longer Term Ideas
 2. daily challemges
 3. endless -> skill tree
 4. Prices for the rooms are randomized (Maybe tips are based on X percent of bill where X is based on the overall rating)
+5. Big item purchases or rennovations that increase both room count/floorcount and something else about the hotel like food or something. This could present the late game.
 
 --------------------------------------------------------------------*/
 #endregion

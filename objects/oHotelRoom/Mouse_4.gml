@@ -31,5 +31,12 @@ if(ds_exists(global.HOTEL[# roomIncrement, floorIncrement], ds_type_map)){
 			scrBellhopCall(floorIncrement, roomIncrement);
 
 		}
+	if(map[? "State"] == roomStates.dirtyCall){
+		if(oStaffController.currMaids > 0){
+			map[? "State"] = roomStates.cleaning;
+			oStaffController.currMaids -= 1;
+			scrMaidCall(floodIncrement, roomIncrement);
+		}
+	}
 	}
 }

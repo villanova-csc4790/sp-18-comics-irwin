@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "565d5284-6b6b-4f76-a1ca-6de067ab5d54",
+            "Value": {
+                "id": "fc940d38-95ed-4e1a-9143-ecb98f4cd791",
+                "resourcePath": "objects\\oMaid\\oMaid.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "59173025-8fd2-4470-9db2-9a7c6b4426f2",
             "Value": {
                 "id": "226ddb91-88f4-4ac6-860a-3610f28d0e0d",
@@ -212,6 +220,14 @@
                 "id": "79c3c23a-c8a5-454b-852a-35e9d94e0e87",
                 "resourcePath": "views\\6be28131-270f-4c67-82cc-3d530839bdcd.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "73e6c996-2c19-4d60-924f-9bee831fc4a5",
+            "Value": {
+                "id": "fc443528-800a-47b3-88d2-33a45d37b993",
+                "resourcePath": "scripts\\scrDirty\\scrDirty.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -399,6 +415,14 @@
             }
         },
         {
+            "Key": "e2e606c9-eda1-40bb-b6ef-f1d99bea3acb",
+            "Value": {
+                "id": "73de5f78-34ee-4d53-8244-27eecd6eee84",
+                "resourcePath": "scripts\\scrMaidCall\\scrMaidCall.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e6c04a84-37e0-4d66-bb97-dab790addd5f",
             "Value": {
                 "id": "8423051a-305f-44aa-b5c6-3692f2d70f64",
@@ -455,7 +479,9 @@
         "e184fb7c-0b87-4ca2-95c6-09fc49c9d771",
         "05ea02f8-e67e-45e3-93ad-a3ff10075f69",
         "c2c0e95c-ee42-4ace-8caa-e02758d940c5",
-        "1693f752-eb40-4a11-9dca-50c2445e7907"
+        "1693f752-eb40-4a11-9dca-50c2445e7907",
+        "e2e606c9-eda1-40bb-b6ef-f1d99bea3acb",
+        "73e6c996-2c19-4d60-924f-9bee831fc4a5"
     ],
     "tutorial": ""
 }

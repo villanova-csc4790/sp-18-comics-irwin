@@ -11,6 +11,7 @@ global.guestList = ds_map_create();
 			map1[? "currentHunger"]		= irandom_range(300, 700);
 			map1[? "roomNumber"]		= 0;
 			map1[? "floorNumber"]		= 0;
+			map1[? "dirtIncrement"]		= irandom_range(1,3);
 		ds_map_add_map(global.guestList, "Alex_F", map1);
 
 		map2 = ds_map_create();
@@ -22,6 +23,7 @@ global.guestList = ds_map_create();
 			map2[? "currentHunger"]		= irandom_range(200,900);
 			map2[? "roomNumber"]		= 0;
 			map2[? "floorNumber"]		= 0;
+			map2[? "dirtIncrement"]		= irandom_range(1,3);
 		ds_map_add_map(global.guestList, "Alesha_B", map2);
 /////SECOND GUEST CHOICES/////
 		map1 = ds_map_create();
@@ -33,6 +35,7 @@ global.guestList = ds_map_create();
 			map1[? "currentHunger"]		= irandom_range(300, 700);
 			map1[? "roomNumber"]		= 0;
 			map1[? "floorNumber"]		= 0;
+			map1[? "dirtIncrement"]		= irandom_range(1,3);
 		ds_map_add_map(global.guestList, "Henry_I", map1);
 		
 		map2 = ds_map_create();
@@ -44,4 +47,5 @@ global.guestList = ds_map_create();
 			map2[? "currentHunger"]		= irandom_range(300, 700);
 			map2[? "roomNumber"]		= 0;
 			map2[? "floorNumber"]		= 0;
+			map2[? "dirtIncrement"]		= irandom_range(1,3);
 		ds_map_add_map(global.guestList, "Craig_C", map2);
