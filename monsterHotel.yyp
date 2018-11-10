@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "1e11aee2-db3c-46df-9e1c-44c3cb273ce2",
+            "Value": {
+                "id": "29ed44cb-c179-4316-bf84-ee5cc122a71b",
+                "resourcePath": "objects\\oEventManager\\oEventManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1f5fbd72-8930-4ed4-b7a1-224c4480a3e8",
             "Value": {
                 "id": "eba84787-358e-4827-91d0-abf42473671d",
@@ -143,6 +151,14 @@
             }
         },
         {
+            "Key": "34dbb06d-8fc9-4b24-b031-db81625c60d0",
+            "Value": {
+                "id": "9f35945c-a98e-4572-8814-b393f3cdf9c4",
+                "resourcePath": "scripts\\scrEventRegisterScript\\scrEventRegisterScript.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "38a763b7-c9b5-42b4-8b68-32d4cdde066f",
             "Value": {
                 "id": "08fbcd46-29c0-4d58-90bd-b4349d61e2ca",
@@ -164,6 +180,14 @@
                 "id": "c50ce950-16c9-4194-b9d8-f4884c7006f9",
                 "resourcePath": "objects\\oGuestClose\\oGuestClose.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "50f5ac39-7d31-45c5-b5f6-8f1656d3dd7d",
+            "Value": {
+                "id": "08e947cc-9118-4086-a84c-95930b43d192",
+                "resourcePath": "scripts\\scrEventFire\\scrEventFire.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -343,6 +367,14 @@
             }
         },
         {
+            "Key": "aee67c64-254a-47c4-820b-f59fabd87475",
+            "Value": {
+                "id": "bb5524b5-cee1-41c9-a289-549dc6a225a8",
+                "resourcePath": "scripts\\scrExecuteAlt\\scrExecuteAlt.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "baa52ce4-bdc1-4e62-93a7-2c3796004836",
             "Value": {
                 "id": "278e37b3-fa79-49bc-9c07-ca6434e8ecca",
@@ -469,6 +501,14 @@
                 "resourcePath": "views\\f97e3467-0c07-47fb-b1e8-4f5ae28d764d.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "fc83fb0c-1176-4999-88e6-41a80c9d2561",
+            "Value": {
+                "id": "3e091d7f-6304-4d39-bcb3-217f0f1ddedb",
+                "resourcePath": "scripts\\scrEventUnregister\\scrEventUnregister.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "script_order": [
@@ -481,7 +521,11 @@
         "c2c0e95c-ee42-4ace-8caa-e02758d940c5",
         "1693f752-eb40-4a11-9dca-50c2445e7907",
         "e2e606c9-eda1-40bb-b6ef-f1d99bea3acb",
-        "73e6c996-2c19-4d60-924f-9bee831fc4a5"
+        "73e6c996-2c19-4d60-924f-9bee831fc4a5",
+        "34dbb06d-8fc9-4b24-b031-db81625c60d0",
+        "50f5ac39-7d31-45c5-b5f6-8f1656d3dd7d",
+        "aee67c64-254a-47c4-820b-f59fabd87475",
+        "fc83fb0c-1176-4999-88e6-41a80c9d2561"
     ],
     "tutorial": ""
 }

@@ -13,16 +13,15 @@
 //The only worthless guest, is one that can't leave a review.
 
 TODO TOMORROW 11/7/18
--Ratings System
--Maid system (new Idea if forgotten check discord)
-
 Longer Term Ideas
-1. Food and Cleanliness Requirements -
-	B: Punishment for not making it to the call in enough time. This is where the rating score is important. Maybe even have it so staying heavily
-	   them rewards a better 5.0 score? 
-	BONUS: Perhaps it could be a random event that they will call about that requires the bellhop staff member, when you click the room you get a block
-	of text that describes the event. Think about this way later, when you have more of a UI fleshed out.
-2. Make a vampire object
+0. Implement the happiness system
+	- This involves tracking it, adding multipliers to guests.
+0.1 - Implement the timers for checkin and bellhop calls
+0.2 - Implement the objects for maids/bellhops they dont need stats or anything right now, just make them base objects.
+1. Events! Yes No boxes of flavoured events that have a chance to trigger throughout the  day as certain CHECK lines occur. 
+This will be the way that it works exactly as it needs to. 
+2. maid and bellhop events give you an info box, requirements and then you drag the maid or bellhop into the face square for it. 
+3. Make a vampire object
 --------------------------------------------------------------------*/
 #endregion
 
