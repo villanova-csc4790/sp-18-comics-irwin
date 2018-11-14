@@ -5,3 +5,6 @@ if (oGuestCreator.booking == true){
 	instance_destroy(close);
 	instance_destroy(self);
 }
+if(name != ""){
+	map1 = global.guestList[? name];
+}

@@ -1,0 +1,3 @@
+Event_ID,Description,Event_Name,Event_Type,Reward
+101,Welcome to the game!,Welcome!,Service,5
+102,Oh no! Bad!,Error!,Service,-5

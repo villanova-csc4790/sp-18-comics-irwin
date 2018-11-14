@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "51702a91-f9d7-4d58-921d-2bf0d674f5a9",
+            "Value": {
+                "id": "479c3ab4-36a7-4c7d-b534-c8eea4b9d74d",
+                "resourcePath": "datafiles_yy\\events.csv.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "565d5284-6b6b-4f76-a1ca-6de067ab5d54",
             "Value": {
                 "id": "fc940d38-95ed-4e1a-9143-ecb98f4cd791",

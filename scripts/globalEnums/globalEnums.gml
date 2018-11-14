@@ -17,6 +17,12 @@ enum roomStates{
 
 enum guestInfo{
 	name = 1,
-	
-	
+}
+
+enum eventsInfo{
+	eventID = 0,
+	description = 1,
+	eventName = 2,
+	eventType = 3,
+	reward = 4
 }
