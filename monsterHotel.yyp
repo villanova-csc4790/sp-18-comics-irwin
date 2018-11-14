@@ -375,6 +375,14 @@
             }
         },
         {
+            "Key": "b3915303-40c0-44d5-ada3-3bef1ab5301b",
+            "Value": {
+                "id": "562dc988-0a94-4ab1-94ed-cd1b3bfca23e",
+                "resourcePath": "objects\\oEventsHandler\\oEventsHandler.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "baa52ce4-bdc1-4e62-93a7-2c3796004836",
             "Value": {
                 "id": "278e37b3-fa79-49bc-9c07-ca6434e8ecca",

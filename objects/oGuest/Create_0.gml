@@ -3,3 +3,4 @@
 guestName = "";
 guestNumber = -1;
 map1 = global.currentGuestMap;
+alarm[0] = room_speed * 15;

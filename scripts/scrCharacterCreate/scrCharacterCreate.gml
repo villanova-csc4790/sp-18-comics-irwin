@@ -12,6 +12,9 @@ global.guestList = ds_map_create();
 			map1[? "roomNumber"]		= 0;
 			map1[? "floorNumber"]		= 0;
 			map1[? "dirtIncrement"]		= irandom_range(1,3);
+			map1[? "Happiness"]			= 100;
+			map1[? "FearMult"]			= random_range(0,2);
+			map1[? "CleanMult"]			= random_range(0,2);
 		ds_map_add_map(global.guestList, "Alex_F", map1);
 
 		map2 = ds_map_create();
