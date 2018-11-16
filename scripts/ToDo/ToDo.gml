@@ -8,15 +8,13 @@
 
 
 #region //Core NEED TO DO Mechanics
-/*-----------------------------------------------------------------
+/*---------------------------------------------------------------
 
 //The only worthless guest, is one that can't leave a review.
 
 TODO TOMORROW 11/12/18
 Longer Term Ideas
-0. Implement the happiness system
-	- This involves tracking it, adding multipliers to guests.
-0.1 - Implement the timers for checkin and bellhop calls
+0.1 - Implement the timers for bellhop calls
 0.2 - Implement the objects for maids/bellhops they dont need stats or anything right now, just make them base objects.
 1. Events! Yes No boxes of flavoured events that have a chance to trigger throughout the  day as certain CHECK lines occur. 
 This will be the way that it works exactly as it needs to. 
@@ -71,7 +69,4 @@ This will be the way that it works exactly as it needs to.
 --------------------------------------------------------------------*/
 #endregion
 
-
 //DON'T FORGET TO SAVE A BUNCH ;)
-
-

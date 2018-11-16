@@ -24,5 +24,4 @@ if(ds_exists(global.HOTEL[# roomIncrement, floorIncrement], ds_type_map)){
 	}
 	//Always Drawn
 	draw_text(x,y+64,map[? "roomNumber"]);
-	
 }
