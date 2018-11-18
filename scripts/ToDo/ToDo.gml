@@ -12,7 +12,7 @@
 
 //The only worthless guest, is one that can't leave a review.
 
-TODO TOMORROW 11/12/18
+TODO TOMORROW 11/18/18
 Longer Term Ideas
 0.1 - Implement the timers for bellhop calls
 0.2 - Implement the objects for maids/bellhops they dont need stats or anything right now, just make them base objects.

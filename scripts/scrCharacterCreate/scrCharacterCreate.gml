@@ -2,11 +2,11 @@ randomize();
 global.guestList = ds_map_create();
 //////FIRST GUEST CHOICES//////
 var low = .5
-var med = .75
+var high = .75
 var mid = 1
 var hlow = 1.25
 var hhigh = 1.5
-rangeArray = [low, med, mid, hlow, hhigh]
+rangeArray = [low, high, mid, hlow, hhigh]
 		map1 = ds_map_create();
 			map1[? "Name"]				= "Alex_F"
 			map1[? "Size"]				= 2 //Perhaps this is a script (for fuller control)
