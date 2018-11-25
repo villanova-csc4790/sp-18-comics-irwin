@@ -1,14 +1,14 @@
 randomize();
-paused = true;
-if(!sprite_exists(screenShot)){
-    screenShot = sprite_create_from_surface(application_surface,0,0,room_width,room_height,0,0,0,0);    
-}
 instance_deactivate_all(1);
+screenShot = sprite_create_from_surface(application_surface,0,0,room_width,room_height,0,0,0,0);    
 
-var eventPopup = instance_create_depth(room_width/2, room_height/2, -100, oEvent);
+var eventPopup = instance_create_depth(room_width/2 - 330, (room_height/2) - 441, -10, oEvent);
 eventPopup.eventCount = eventCount; 
 with(eventPopup){
-			accept = instance_create_depth(x + sprite_width/2, y+ (372/2), -10, oAcceptButton);
+			
+			screenShot = oEventsHandler.screenShot;
+			accept = instance_create_depth(x + sprite_width/2, y+ (372), -11, oAcceptButton);
 			accept.eventBox = id;
+			screenShot = oEventsHandler.screenShot;
 }
 

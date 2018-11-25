@@ -16,8 +16,7 @@ TODO TOMORROW 11/18/18
 Longer Term Ideas
 0.1 - Implement the timers for bellhop calls
 0.2 - Implement the objects for maids/bellhops they dont need stats or anything right now, just make them base objects.
-1. Events! Yes No boxes of flavoured events that have a chance to trigger throughout the  day as certain CHECK lines occur. 
-This will be the way that it works exactly as it needs to. 
+1. Clean up the event object and better modularize it/make sure it works for multiple events.
 2. maid and bellhop events give you an info box, requirements and then you drag the maid or bellhop into the face square for it. 
 3. Make a vampire object
 --------------------------------------------------------------------*/

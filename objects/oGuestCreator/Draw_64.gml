@@ -3,7 +3,7 @@
 draw_text(32, 64, "Day: " + string(global.day));
 draw_text(32, 76, "Week: " + string(global.week));
 draw_text(32, 90, "Current Bellhops: " + string(oStaffController.currBells));
-draw_text(32, 120, "Money:" + string(money));
+draw_text(32, 120, "Time:" + string(oClock.alarm[0]));
 
 /*if(ds_exists(global.currentGuestMap,ds_type_map)){
 	draw_text(64, 256, global.currentGuestMap[? "Name"]);

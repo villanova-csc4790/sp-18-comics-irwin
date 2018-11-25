@@ -5,5 +5,5 @@ with(oGuestCreator){
 	if(guestCount == 0){
 		inLine = false;
 	}
-	instance_destroy(guest[selected]);
+	instance_destroy(guest[selected]); //Theres a bug here
 }
