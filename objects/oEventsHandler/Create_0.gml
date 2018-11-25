@@ -3,3 +3,4 @@
 global.eventsGrid = load_csv("events.csv");
 paused = false;
 screenShot = -1;
+eventCount = 0;

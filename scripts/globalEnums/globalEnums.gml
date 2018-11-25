@@ -19,10 +19,17 @@ enum guestInfo{
 	name = 1,
 }
 
+enum guestWeight{
+	service = 1,
+	fun = 2,
+	noise = 3
+}
+
 enum eventsInfo{
 	eventID = 0,
 	description = 1,
 	eventName = 2,
 	eventType = 3,
-	reward = 4
+	reward = 4,
+	penalty = 5
 }
