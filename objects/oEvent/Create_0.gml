@@ -1,7 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 eventCount = 1;
-screenShot = -1;
 eventID = global.eventsGrid[# eventsInfo.eventID, eventCount];
 eventDesc = global.eventsGrid[# eventsInfo.description, eventCount];
 eventName = global.eventsGrid[# eventsInfo.eventName, eventCount];

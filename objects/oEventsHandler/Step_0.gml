@@ -3,7 +3,6 @@
 if(!paused){
 	switch(global.day){
 		case 1: 
-		paused = true;
 		scrEventController();
 	}
 }
