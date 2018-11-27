@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-oEventsHandler.paused = false;
-if(sprite_exists(oEvent.screenShot)){
-	sprite_delete(oEvent.screenShot);		
+oEvent.eventNumber ++;
+if(sprite_exists(oEventsHandler.screenShot)){
+	sprite_delete(oEventsHandler.screenShot);		
 }
 instance_activate_all();
 instance_destroy(eventBox);
