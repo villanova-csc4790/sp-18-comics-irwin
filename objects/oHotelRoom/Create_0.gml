@@ -8,5 +8,5 @@ roomNumber = 000;
 roomIncrement = 0;
 floorIncrement = 0;
 currentGuest = noone;
-
+waiting = false;
 

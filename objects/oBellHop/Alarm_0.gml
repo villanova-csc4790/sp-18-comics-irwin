@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+
 if(ds_exists(global.HOTEL[# roomDest, floorDest], ds_type_map)){	
 	map = global.HOTEL[# roomDest, floorDest];
 	guestName = map[? "Name"];

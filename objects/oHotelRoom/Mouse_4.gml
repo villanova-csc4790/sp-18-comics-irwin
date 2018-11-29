@@ -28,8 +28,8 @@ if(ds_exists(global.HOTEL[# roomIncrement, floorIncrement], ds_type_map)){
 			map[? "State"] = roomStates.processing;
 			oStaffController.currBells -= 1;
 			//Possibly take food here as well if that becomes a mechanic
+			waiting = false;
 			scrBellhopCall(floorIncrement, roomIncrement);
-
 		}
 	if(map[? "State"] == roomStates.dirtyCall){
 		if(oStaffController.currMaids > 0){

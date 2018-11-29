@@ -10,6 +10,10 @@ if(ds_exists(global.HOTEL[# roomIncrement, floorIncrement], ds_type_map)){
 		map[? "cleanliness"] = 0; //REMEMBER THIS EXISTS
 	}
 	if(map[? "State"] == roomStates.hungryCall){
+		if(!waiting){
+			waiting = false;
+			alarm[0] = room_speed*10;
+		}
 		image_index = 1;
 	}
 	if(map[? "State"] != roomStates.hungryCall){
