@@ -7,6 +7,6 @@ outDate = 0;
 roomNumber = 000;
 roomIncrement = 0;
 floorIncrement = 0;
-currentGuest = noone;
+currentGuest = "";
 waiting = false;
 

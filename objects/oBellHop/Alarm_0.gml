@@ -10,6 +10,9 @@ if(ds_exists(global.HOTEL[# roomDest, floorDest], ds_type_map)){
 		map[? "State"] = roomStates.vacant;
 		}
 	map2[? "currentHunger"] = 0;
+	if(map2[? "Happiness"] < 100){
+		map2[? "Happiness"] += 2*map2[? "ServiceMult"];
+	}
 	//Possible secondary alarm started when the trigger happens. 
 	//This would also be where one would increase or decrease average score for the room
 	alarm[1] = room_speed * (3*floorDest);
