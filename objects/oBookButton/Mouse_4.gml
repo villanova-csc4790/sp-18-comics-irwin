@@ -5,6 +5,6 @@ if(oGuestCreator.inLine = true){
 		//inLine = false;
 		booking = true;
 		bookingName = oBookButton.guestName;
-		//global.curName = "";
+		ds_list_add(global.bookedList, oBookButton.guestName);
 	}
 }

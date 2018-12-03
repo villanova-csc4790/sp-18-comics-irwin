@@ -12,13 +12,13 @@
 
 //The only worthless guest, is one that can't leave a review.
 
-TODO TOMORROW 11/18/18
-Longer Term Ideas
-0.1 - Implement the timers for bellhop calls
-0.2 - Implement the objects for maids/bellhops they dont need stats or anything right now, just make them base objects.
+TODO BY DEC SIXTH
 1. Make the events actually do things
+2. Make a vampire object
+
+Long Term Projects for after senior projects
+1 - Implement the objects for maids/bellhops they dont need stats or anything right now, just make them base objects.
 2. maid and bellhop events give you an info box, requirements and then you drag the maid or bellhop into the face square for it. 
-3. Make a vampire object
 --------------------------------------------------------------------*/
 #endregion
 

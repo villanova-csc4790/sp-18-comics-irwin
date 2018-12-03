@@ -3,13 +3,13 @@
 global.day = 1;
 global.week = 1;
 global.guestList = noone;
+global.bookedList = ds_list_create();
 
 inLine = false;
 
 booking = false;
 money = 100;
 global.HOTEL = noone;
-currentRoom = room0;
 
 guest[0] = noone;
 selected = noone;

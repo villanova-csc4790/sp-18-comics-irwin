@@ -10,5 +10,7 @@ switch (global.eventsGrid[# eventsInfo.eventType,eventCount]){
 	eventType = guestWeight.service;
 	break;
 }
-eventReward = global.eventsGrid[# eventsInfo.reward, eventCount]
-eventPenalty = global.eventsGrid[# eventsInfo.penalty, eventCount]
+eventReward = global.eventsGrid[# eventsInfo.reward, eventCount];
+eventPenalty = global.eventsGrid[# eventsInfo.penalty, eventCount];
+ds_list_shuffle(global.bookedList);
+target = global.bookedList[| 0];

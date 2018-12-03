@@ -295,6 +295,14 @@
             }
         },
         {
+            "Key": "71b20697-0e4d-4729-b8b3-6e5636c5ddbc",
+            "Value": {
+                "id": "13f909ce-69e3-4d56-a363-66abed4ec9a5",
+                "resourcePath": "sprites\\sPlayButton\\sPlayButton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "73e6c996-2c19-4d60-924f-9bee831fc4a5",
             "Value": {
                 "id": "fc443528-800a-47b3-88d2-33a45d37b993",
@@ -455,6 +463,14 @@
             }
         },
         {
+            "Key": "bb13728b-4b34-4e27-98d2-4cac32db7d4c",
+            "Value": {
+                "id": "ea86811c-33c9-4114-bac0-3b60df49e523",
+                "resourcePath": "rooms\\MainMenu\\MainMenu.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "c0373ea1-8adb-413a-93d6-8f168a3de7b7",
             "Value": {
                 "id": "dcf8b166-e035-4f32-9dad-b0850e7ef682",
@@ -476,6 +492,14 @@
                 "id": "3bfcf27a-a4dc-4bae-8e59-2a0dd2cd969a",
                 "resourcePath": "scripts\\scrBellhopCall\\scrBellhopCall.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "cc50ae26-3b8e-4add-9e81-206ca5422694",
+            "Value": {
+                "id": "89dae4c4-507d-4d33-9ed1-a24c34afefe9",
+                "resourcePath": "sprites\\bgMenu\\bgMenu.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -538,8 +562,16 @@
             "Key": "e7f83f7c-8b87-4335-9f9e-373349d41ecd",
             "Value": {
                 "id": "b1612df3-7fd2-4696-8b60-a375a5492475",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\GameRoom\\GameRoom.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "e8d709d7-7653-4a2d-9f61-76c2b2340dff",
+            "Value": {
+                "id": "422bfe28-76c3-428c-b10a-fc7650abd06d",
+                "resourcePath": "sprites\\sBookNew\\sBookNew.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -551,19 +583,27 @@
             }
         },
         {
+            "Key": "ec2a6354-8c41-413a-a5fd-c2cbca0e2993",
+            "Value": {
+                "id": "53928231-1fd4-4f81-8cd5-53ea39c7549f",
+                "resourcePath": "sprites\\sLogo\\sLogo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ef8ef046-0b9f-4eff-8b26-2969fa2f3afe",
+            "Value": {
+                "id": "22f9502c-0832-4aa7-ad19-62053bc162ae",
+                "resourcePath": "objects\\oPlayButton\\oPlayButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "747d337b-da49-44ac-9f8c-424c1a7f390e",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
-            }
-        },
-        {
-            "Key": "f6c39182-846d-4cbe-a67f-88da1b36e5f3",
-            "Value": {
-                "id": "4f1f3bb7-a071-498f-b43c-a23b09261336",
-                "resourcePath": "rooms\\room1\\room1.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -592,11 +632,11 @@
         "05ea02f8-e67e-45e3-93ad-a3ff10075f69",
         "c2c0e95c-ee42-4ace-8caa-e02758d940c5",
         "1693f752-eb40-4a11-9dca-50c2445e7907",
-        "e2e606c9-eda1-40bb-b6ef-f1d99bea3acb",
         "73e6c996-2c19-4d60-924f-9bee831fc4a5",
         "84dec8c0-1612-4665-8a7a-23285a79bdcd",
         "2a79f8e3-90c8-443b-9be5-f67c92892bf0",
         "fc83fb0c-1176-4999-88e6-41a80c9d2561",
+        "e2e606c9-eda1-40bb-b6ef-f1d99bea3acb",
         "50f5ac39-7d31-45c5-b5f6-8f1656d3dd7d",
         "aee67c64-254a-47c4-820b-f59fabd87475",
         "34dbb06d-8fc9-4b24-b031-db81625c60d0"

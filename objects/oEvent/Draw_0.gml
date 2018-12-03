@@ -3,5 +3,5 @@
 draw_self();
 draw_text_transformed(x+50,y+45,eventName, 2, 2, 0);
 draw_text(x +60, y+ 170, eventDesc);
-draw_text(x +60, y+ 140, eventNumber);
+draw_text(x + 60, y + 140, string(target) + string(eventType));
 
