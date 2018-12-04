@@ -621,6 +621,14 @@
                 "resourcePath": "scripts\\scrEventUnregister\\scrEventUnregister.yy",
                 "resourceType": "GMScript"
             }
+        },
+        {
+            "Key": "fd2d511d-8d96-495f-a3ec-72fa8d94142d",
+            "Value": {
+                "id": "e2206fbd-1a23-48ba-9f15-24da7b069726",
+                "resourcePath": "sprites\\sAcceptButton\\sAcceptButton.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "script_order": [

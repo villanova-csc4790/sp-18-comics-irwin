@@ -15,6 +15,9 @@
 TODO BY DEC SIXTH
 1. Make the events actually do things
 2. Make a vampire object
+	- All monsterdrops do immediate checks 
+	- All monsters that don't have immediate checks will do secondary checks on left click guest placement
+	- Mark a satisfied = true if they eat a person maybe?
 
 Long Term Projects for after senior projects
 1 - Implement the objects for maids/bellhops they dont need stats or anything right now, just make them base objects.
