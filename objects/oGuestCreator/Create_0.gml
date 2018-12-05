@@ -5,6 +5,7 @@ global.week = 1;
 global.guestList = noone;
 global.bookedList = ds_list_create();
 
+
 inLine = false;
 
 booking = false;

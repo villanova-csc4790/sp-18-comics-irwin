@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 draw_self();
+draw_set_color(c_black);
 if(currentGuest > 0){
 	if(ds_exists(global.guestList[? currentGuest], ds_type_map)){
 		guestMap = global.guestList[? currentGuest];
@@ -25,3 +26,4 @@ if(ds_exists(global.HOTEL[# roomIncrement, floorIncrement], ds_type_map)){
 	//Always Drawn
 	draw_text(x,y+64,map[? "roomNumber"]);
 }
+draw_set_color(c_white);

@@ -1,9 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-xx = 800;
-yy = 800;
-xCons = 128
-yCons = 128
+xx = 735;//200
+yy = 864;//256
+xCons = 135;
+yCons = 152;
 i = 0;
 j = 0;
 curWeek = 0;
