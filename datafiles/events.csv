@@ -1,6 +1,6 @@
 Event_ID,Description,Event_Name,Event_Type,Reward,Penalties,Penalty_Type,Bellhop,Maid
-101,Welcome to the game!,Welcome,Service,5,-,-,0,0
-102,Oh no! Bad!,Error,Service,-5,-,-,0,0
+101,Welcome to the game! Here have some free points. This is a test ,Welcome,Service,5,-,-,0,0
+102,% is missing a bag! Let's hope it didn't get eaten,The Curiouse Case of the missing Bag.,Service,-5,-,-,0,0
 103,% and $ wolfpack want to howl at the moon,MoonHowl,Fun,10,-10,Noise/Fear,0,0
 104,% Would like to have a TV in their room,TVReq,Fun,5,,,1,0
 105,"By placing a ghost in this room, he will haunt adj.",SpookyTime,Fun,5,-10,Fear,0,0

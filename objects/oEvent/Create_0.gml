@@ -14,3 +14,4 @@ eventReward = global.eventsGrid[# eventsInfo.reward, eventCount];
 eventPenalty = global.eventsGrid[# eventsInfo.penalty, eventCount];
 ds_list_shuffle(global.bookedList);
 target = global.bookedList[| 0];
+eventDesc = string_replace(eventDesc, "%", target);

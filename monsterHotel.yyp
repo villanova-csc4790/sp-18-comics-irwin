@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "38a69f8a-2ceb-4247-aa54-eb1fff73bf1a",
+            "Value": {
+                "id": "2a24dd2b-9085-4e0c-9fde-111afbb25678",
+                "resourcePath": "datafiles_yy\\events.csv.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "38a763b7-c9b5-42b4-8b68-32d4cdde066f",
             "Value": {
                 "id": "08fbcd46-29c0-4d58-90bd-b4349d61e2ca",
@@ -228,14 +236,6 @@
                 "id": "08e947cc-9118-4086-a84c-95930b43d192",
                 "resourcePath": "scripts\\scrEventFire\\scrEventFire.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "51702a91-f9d7-4d58-921d-2bf0d674f5a9",
-            "Value": {
-                "id": "479c3ab4-36a7-4c7d-b534-c8eea4b9d74d",
-                "resourcePath": "datafiles_yy\\events.csv.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {

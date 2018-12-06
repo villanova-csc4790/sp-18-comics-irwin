@@ -93,3 +93,20 @@ rangeArray = [low, high, mid, hlow, hhigh]
 			map2[? "Servings"]			= 2;
 			map2[? "Meals"]				= 0;
 		ds_map_add_map(global.guestList, "Dracula", map2);
+		
+	/*	map2 = ds_map_create();
+			map2[? "Name"]				= "Dobies"
+			map2[? "Size"]				= 4 //Perhaps this is a script (for fuller control)
+			map2[? "Time"]				= 4;
+			map2[? "maxHunger"]			= hotelStats.AVGMAXHUNGER;
+			map2[? "hungerIncrement"]	= 1;
+			map2[? "currentHunger"]		= irandom_range(300, 700);
+			map2[? "roomNumber"]		= 0;
+			map2[? "floorNumber"]		= 0;
+			map2[? "dirtIncrement"]		= irandom_range(1,3);
+			map2[? "Happiness"]			= 100;
+			map2[? "ServiceMult"]		= rangeArray[ irandom_range(0, (array_length_1d(rangeArray) - 1)) ]
+			map2[? "FearMult"]			= rangeArray[ irandom_range(0, (array_length_1d(rangeArray) - 1)) ]
+			map2[? "CleanMult"]			= rangeArray[ irandom_range(0, (array_length_1d(rangeArray) - 1)) ]
+			map2[? "Race"]				= race.human;
+		ds_map_add_map(global.guestList, "Dobies", map2);
