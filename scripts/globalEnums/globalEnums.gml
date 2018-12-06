@@ -33,3 +33,7 @@ enum eventsInfo{
 	reward = 4,
 	penalty = 5
 }
+enum race{
+	human,
+	vampire
+}

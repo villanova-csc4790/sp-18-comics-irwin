@@ -6,6 +6,9 @@ if(ds_exists(global.HOTEL, ds_type_grid)){
 				if(map[? "outDate"] == global.day){
 					map[? "State"] = roomStates.vacant;
 					pos = ds_list_find_index(global.bookedList, map[? "Name"]);
+					name = global.guestList[? map[? "Name"]];
+					global.reviews[checkedOut] = name[? "Happiness"];
+					checkedOut ++;
 					ds_list_delete(global.bookedList, pos);
 					map[? "Name"] = "";
 					map[? "outDate"] = -1;

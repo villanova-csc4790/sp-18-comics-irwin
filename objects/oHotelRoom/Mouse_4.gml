@@ -35,7 +35,7 @@ if(ds_exists(global.HOTEL[# roomIncrement, floorIncrement], ds_type_map)){
 		if(oStaffController.currMaids > 0){
 			map[? "State"] = roomStates.cleaning;
 			oStaffController.currMaids -= 1;
-			scrMaidCall(floodIncrement, roomIncrement);
+			scrMaidCall(floorIncrement, roomIncrement);
 		}
 	}
 	}

@@ -21,6 +21,7 @@ rangeArray = [low, high, mid, hlow, hhigh]
 			map1[? "ServiceMult"]		= rangeArray[ irandom_range(0, (array_length_1d(rangeArray) - 1)) ]
 			map1[? "FearMult"]			= rangeArray[ irandom_range(0, (array_length_1d(rangeArray) - 1)) ]
 			map1[? "CleanMult"]			= rangeArray[ irandom_range(0, (array_length_1d(rangeArray) - 1)) ]
+			map1[? "Race"]				= race.human;
 		ds_map_add_map(global.guestList, "Alex_F", map1);
 
 		map2 = ds_map_create();
@@ -37,6 +38,7 @@ rangeArray = [low, high, mid, hlow, hhigh]
 			map2[? "ServiceMult"]		= rangeArray[ irandom_range(0, (array_length_1d(rangeArray) - 1)) ]
 			map2[? "FearMult"]			= rangeArray[ irandom_range(0, (array_length_1d(rangeArray) - 1)) ]
 			map2[? "CleanMult"]			= rangeArray[ irandom_range(0, (array_length_1d(rangeArray) - 1)) ]
+			map2[? "Race"]				= race.human;
 		ds_map_add_map(global.guestList, "Alesha_B", map2);
 /////SECOND GUEST CHOICES/////
 		map1 = ds_map_create();
@@ -53,6 +55,7 @@ rangeArray = [low, high, mid, hlow, hhigh]
 			map1[? "ServiceMult"]		= rangeArray[ irandom_range(0, (array_length_1d(rangeArray) - 1)) ]
 			map1[? "FearMult"]			= rangeArray[ irandom_range(0, (array_length_1d(rangeArray) - 1)) ]
 			map1[? "CleanMult"]			= rangeArray[ irandom_range(0, (array_length_1d(rangeArray) - 1)) ]
+			map1[? "Race"]				= race.human;
 		ds_map_add_map(global.guestList, "Henry_I", map1);
 		
 		map2 = ds_map_create();
@@ -69,4 +72,24 @@ rangeArray = [low, high, mid, hlow, hhigh]
 			map2[? "ServiceMult"]		= rangeArray[ irandom_range(0, (array_length_1d(rangeArray) - 1)) ]
 			map2[? "FearMult"]			= rangeArray[ irandom_range(0, (array_length_1d(rangeArray) - 1)) ]
 			map2[? "CleanMult"]			= rangeArray[ irandom_range(0, (array_length_1d(rangeArray) - 1)) ]
+			map2[? "Race"]				= race.human;
 		ds_map_add_map(global.guestList, "Craig_C", map2);
+		
+			map2 = ds_map_create();
+			map2[? "Name"]				= "Dracula"
+			map2[? "Size"]				= 1 //Perhaps this is a script (for fuller control)
+			map2[? "Time"]				= 1;
+			map2[? "maxHunger"]			= 900000;
+			map2[? "hungerIncrement"]	= 1;
+			map2[? "currentHunger"]		= irandom_range(300, 700);
+			map2[? "roomNumber"]		= 0;
+			map2[? "floorNumber"]		= 0;
+			map2[? "dirtIncrement"]		= irandom_range(1,3);
+			map2[? "Happiness"]			= 100;
+			map2[? "ServiceMult"]		= rangeArray[ irandom_range(0, (array_length_1d(rangeArray) - 1)) ]
+			map2[? "FearMult"]			= rangeArray[ irandom_range(0, (array_length_1d(rangeArray) - 1)) ]
+			map2[? "CleanMult"]			= rangeArray[ irandom_range(0, (array_length_1d(rangeArray) - 1)) ]
+			map2[? "Race"]				= race.vampire;
+			map2[? "Servings"]			= 2;
+			map2[? "Meals"]				= 0;
+		ds_map_add_map(global.guestList, "Dracula", map2);

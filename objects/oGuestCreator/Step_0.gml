@@ -12,6 +12,10 @@ if(global.day == 1){ //This is a script.
 				guestArray = ["Alesha_B", "Alex_F"];
 				scrGuestSpawn(guestArray);
 			break;
+		case 6250:
+				guestArray = ["Dracula"];
+				scrGuestSpawn(guestArray);
+			break;
 		case 5900:
 				guestArray = ["Henry_I", "Craig_C"];
 				scrGuestSpawn(guestArray);

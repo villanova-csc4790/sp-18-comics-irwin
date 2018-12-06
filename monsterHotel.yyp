@@ -311,6 +311,14 @@
             }
         },
         {
+            "Key": "71647c7b-ac3e-42fa-8619-7cf564e591ce",
+            "Value": {
+                "id": "be7ef1ca-7929-4778-a74f-fe6ce82b7f3c",
+                "resourcePath": "scripts\\scrVampireMeal\\scrVampireMeal.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "71b20697-0e4d-4729-b8b3-6e5636c5ddbc",
             "Value": {
                 "id": "13f909ce-69e3-4d56-a363-66abed4ec9a5",
@@ -543,6 +551,14 @@
             }
         },
         {
+            "Key": "d39f50e3-d975-42ee-8cc4-f4a5d3deb77e",
+            "Value": {
+                "id": "0e908a2e-a98b-493d-8a0b-563dd58516c1",
+                "resourcePath": "sprites\\sGuestButton\\sGuestButton.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "dc2dbcc1-385a-4a1d-9185-878d0f112ceb",
             "Value": {
                 "id": "0bf00b11-6a45-4a4f-8717-102df4976e0f",
@@ -663,7 +679,8 @@
         "e2e606c9-eda1-40bb-b6ef-f1d99bea3acb",
         "50f5ac39-7d31-45c5-b5f6-8f1656d3dd7d",
         "aee67c64-254a-47c4-820b-f59fabd87475",
-        "34dbb06d-8fc9-4b24-b031-db81625c60d0"
+        "34dbb06d-8fc9-4b24-b031-db81625c60d0",
+        "71647c7b-ac3e-42fa-8619-7cf564e591ce"
     ],
     "tutorial": ""
 }

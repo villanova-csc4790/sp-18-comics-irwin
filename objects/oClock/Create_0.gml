@@ -8,3 +8,5 @@ MORNING,
 NOON,
 NIGHT
 }
+global.reviews = [];
+checkedOut = 0;
